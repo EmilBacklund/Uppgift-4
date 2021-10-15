@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+}
+
+.inner {
+    margin: 0 auto;
+}
+
+.header1 {
+    background-color: #76E4EB;
+    width: 428px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.hero-banner {
+    background-color: #315FA4;
+    width: 428px;
+    height: 420px;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 428px;
+}
+
+.hero-banner2 {
+   background-color: #315FA4;
+   width: 428px;
+   height: 620px; 
+   float: left;
+   margin-right: 20px;
+   margin-bottom: 20px;
+}
+
+.images {
+    background-color: #1DCD79;
+    width: 428px;
+    height: 220px;
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.box1 {
+    display: none;
+}
+
+.box2 {
+    display: none;
+}
+
+.images:nth-child(4n) {
+    margin-bottom: -20px;
+}
+
+footer {
+    background-color: #C01887;
+    width: 428px;
+    height: 266px;
+}
+
+@media screen and (min-width: 767px) {
+    .inner {
+        margin: 0 auto;
+    }
+    
+    .header1 {
+        background-color: #76E4EB;
+        width: 987px;
+        height: 48px;
+        margin: 0 auto;
+    }
+    
+    .hero-banner {
+        background-color: #315FA4;
+        width: 987px;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+    
+    .container {
+        width: 987px;
+        margin-bottom: 16px;
+    }
+    
+    .hero-banner2 {
+       background-color: #315FA4;
+       width: 231px;
+       height: 894px; 
+       float: left;
+       margin-right: 20px;
+    }
+    
+    .images {
+        background-color: #1DCD79;
+        width: 231px;
+        height: 320px;
+        display: inline-block;
+        margin-right: 16px;
+        margin-bottom: 1px;
+    }
+    
+    .images:nth-child(3n+3) {
+        margin-right: 0;
+    }
+    
+    .images2 {
+        background-color: #1DCD79;
+        width: 231px;
+        height: 81px;
+        display: inline-block;
+        margin-right: 16px;
+        margin-bottom: 17px;
+    }
+    
+    .images2:nth-child(3n+3) {
+        margin-right: 0;
+    }
+    
+    .header2 {
+        background-color: #76E4EB;
+        width: 735px;
+        height: 36px;
+        display: inline-block;
+    }
+    
+    footer {
+        background-color: #C01887;
+        width: 987px;
+        height: 266px;
+    }
+}
